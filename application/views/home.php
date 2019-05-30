@@ -30,7 +30,7 @@
             <a class="nav-link" href="#">Inicio<span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="campana">Campañas</a>
+            <a class="nav-link" href="views/campañas">Campañas</a>
           </li>
 		  <li class="nav-item">
             <a class="nav-link" href="estadisticas">Estadisticas</a>
