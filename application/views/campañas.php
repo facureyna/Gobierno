@@ -1,4 +1,6 @@
-<table class="table">
+<?php
+
+ <table class="table">
   <thead class="thead-dark">
     <tr>
       <th scope="col">#</th>
@@ -59,3 +61,4 @@
     </tr>
   </tbody>
 </table>
+?>
