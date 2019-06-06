@@ -14,6 +14,6 @@ class Api_campanas extends REST_Controller {
     public function index_get(){
       $data = $this->campana_model->listarCampana();
       $this->response($data);
-      $this->response($this->campana_model->listarCampana());
+    //  $this->response($this->campana_model->listarCampana());
     }
 }
