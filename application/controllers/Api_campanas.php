@@ -15,5 +15,6 @@ class Api_campanas extends REST_Controller {
       $data = $this->campana_model->listarCampana();
       $this->response($data);
     //  $this->response($this->campana_model->listarCampana());
+    //lalalalalalaalal
     }
 }
