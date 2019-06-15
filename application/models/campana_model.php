@@ -15,7 +15,7 @@
    }
    ///////////////////////////////////////////////////////////////////////////
    public function listarCampana(){
-     $this->db->select('nombreCampana, fecha, ubicacion');
+     $this->db->select('id_campana,nombreCampana, fecha, ubicacion');
      $this->db->from('campana');
      $consulta = $this->db->get();
      return $consulta->result();
