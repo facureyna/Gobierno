@@ -21,8 +21,12 @@
      return $consulta->result();
      //return $this->db->get_where('campana');
    }
-
   ////////////////////////////////////////////////////////////////////////
+  function add_linea($params)
+  {
+      $this->db->insert('campana',$params);
+      return $this->db->insert_id();
+  }
 
  }
 

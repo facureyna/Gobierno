@@ -87,33 +87,41 @@
     <!-- Start Sample Area -->
         <div class="section-top-border">
           <h3 class="mb-30">Campañas</h3>
-          <div class="progress-table-wrap">
-            <div class="progress-table">
-              <div class="table-head">
-                <div class="serial">#</div>
-                <div class="country">Nombre campaña</div>
-                <div class="visit">Fecha</div>
-                <div class="percentage">Ubicación</div>
-              </div>
-              <div class="table-row">
-                <div class="serial">04</div>
-                <div class="country"> <?php
+          <button type="button" class="btn btn-info">Nueva campaña</button>
+          <?php
+          echo"<div class="."progress-table-wrap".">";
+          echo" <div class="."progress-table".">";
+                echo"
+              <div class="."table-head".">
+                <div class="."country".">Nombre campaña</div>
+                <div class="."visit".">Fecha</div>
+                <div class="."percentage".">Ubicación</div>
+              </div>";
 
-                foreach ($listado as $valor) {
-                  echo($valor->nombreCampana);
-                  echo($valor->fecha);
-                  echo($valor->ubicacion);
-                }
-                 ?></div>
-                <div class="visit">645032</div>
-                <div class="percentage">
-                  <div class="progress">
-                    <div class="progress-bar color-4" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
-                  </div>
-                </div>
-              </div>
 
-                </div>
+              foreach ($listado as $valor) {
+                echo"<div class="."table-row".">";
+
+                echo($valor->nombreCampana);
+                echo" <div class="."country"."></div>";
+                echo($valor->fecha);
+                echo"<div class="."visit"."></div>";
+                echo($valor->ubicacion);
+                echo"<div class="."percentage"."></div>";
+                echo"<button type='button' class='btn btn-primary'>Ver</button>";
+                echo"<button type='button' class='btn btn-success'>Modificar</button>";
+                echo"<button type='button' class='btn btn-danger'>Borrar</button>";
+
+
+              echo"  </div>";
+            }
+              echo"</div>";
+              echo"</div>";
+
+              ?>
+
+
+
               </div>
             </div>
           </div>
