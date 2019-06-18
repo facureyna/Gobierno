@@ -112,11 +112,12 @@ class campanas_controller extends CI_Controller {
 
 
 	 public function index()
-	 {
-		 $this->load->model('campana_model');
-		 $data['listado'] = $this->campana_model->listarCampana();
-		 $this->load->view('campana',$data);
-
+	 {	 
+		$this->load->model('campana_model');
+		$data['listado'] = $this->campana_model->listarCampana();
+		$this->load->view('header');
+		$this->load->view('campana',$data);
+		$this->load->view('footer');
 	 }
 
 }

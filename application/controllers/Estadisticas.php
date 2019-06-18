@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Welcome extends CI_Controller {
+class Estadisticas extends CI_Controller {
 
 	/**
 	 * Index Page for this controller.
@@ -20,8 +20,12 @@ class Welcome extends CI_Controller {
 	 */
 	public function index()
 	{
+		$data['adoptados'] = json_decode(file_get_contents('http://192.168.1.43/rescatistaAnimales/index.php/Rescatista_REST/estadistica')); 
+		$data['rescatistas'] = json_encode(json_decode(file_get_contents('http://192.168.1.43/rescatistaAnimales/index.php/Rescatista_REST/rescates')));
 		$this->load->view('header');
-		$this->load->view('home');
+		$this->load->view('estadisticas', $data);
 		$this->load->view('footer');
+
+
 	}
 }
