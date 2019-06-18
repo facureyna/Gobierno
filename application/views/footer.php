@@ -32,10 +32,9 @@
                     <span class="lnr lnr-home"></span>
                   </div>
                   <div class="detail">
-                    <h4>Binghamton, New York</h4>
+                    <h4>Comodoro Rivadavia, Chubut.</h4>
                     <p>
-                      4343 Hinkle Deegan Lake Road
-                    </p>
+                      Km4 Universidad Nacional de la Patagonia San Juan Bosco</p>
                   </div>
                 </li>
                 <li class="flex-row d-flex">
@@ -43,9 +42,9 @@
                     <span class="lnr lnr-phone-handset"></span>
                   </div>
                   <div class="detail">
-                    <h4>00 (953) 9865 562</h4>
+                    <h4>(297) 4444 444</h4>
                     <p>
-                      Mon to Fri 9am to 6 pm
+                      Lun. a Vier. de 9hs a 18hs
                     </p>
                   </div>
                 </li>
@@ -54,9 +53,9 @@
                     <span class="lnr lnr-envelope"></span>
                   </div>
                   <div class="detail">
-                    <h4>support@colorlib.com</h4>
+                    <h4>support@ARSS2019.com</h4>
                     <p>
-                      Send us your query anytime!
+                      Envianos tu consulta en cualquier momento.
                     </p>
                   </div>
                 </li>

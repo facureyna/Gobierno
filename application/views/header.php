@@ -51,9 +51,9 @@
             <nav id="nav-menu-container">
               <ul class="nav-menu">
                 <li class="menu-active"><a href="<?php echo base_url(); ?>">Inicio</a></li>
-                <li><a href="<?php echo base_url(); ?>index.php/campanas">Campañas</a></li>
+                <li><a href="<?php echo base_url(); ?>index.php/campanas_controller">Campañas</a></li>
                 <li><a href="<?php echo base_url(); ?>index.php/estadisticas">Estadísticas</a></li>
-                <li><a href="contact.html">Contacto</a></li>
+                <li><a href="<?php echo base_url(); ?>index.php/campanas_controller/rescatistas">Rescatistas</a></li>
               </ul>
             </nav><!-- #nav-menu-container -->
           </div>

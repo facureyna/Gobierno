@@ -17,22 +17,22 @@
         var data = new google.visualization.DataTable();
         data.addColumn('string', 'Topping');
         data.addColumn('number', 'Slices');
-        data.addRows([
+        /*data.addRows([
           ['Mushrooms', 3],
           ['Onions', 1],
           ['Olives', 1],
           ['Zucchini', 1],
           ['Pepperoni', 2]
-        ]);
-        /*data.addRows([
+        ]);*/
+        data.addRows([
           ['Adoptados',<?php echo ($adoptados->adoptados) ?>],
-          ['No adoptados',<?php  echo ($adoptados->noAdoptados) ?>]
-          ]);*/
+          ['En transito',<?php  echo ($adoptados->en_transito) ?>]
+          ]);
 
         // Set chart options
-        var options = {'title':'Animales adoptados en el mes',
-                       'width': '500',
-                       'height': '400'};
+        var options = {'title':'Animales',
+                       'width': '700',
+                       'height': '600'};
 
         // Instantiate and draw our chart, passing in some options.
         var torta = new google.visualization.PieChart(document.getElementById('torta'));
@@ -44,8 +44,12 @@
        google.setOnLoadCallback(drawBasic);
 
         function drawBasic() {
+          var a = JSON.parse('<?= $rescatistas ?>');
+             a.forEach(function(element) {
+              console.log(element);
+              });
         var data = google.visualization.arrayToDataTable([
-          ['Rescatistas', 'Animales',],
+          ['Rescatistas', 'Animales',],       
           ['New York City, NY', 8175000],
           ['Los Angeles, CA', 3792000],
           ['Chicago, IL', 2695000],
@@ -54,7 +58,7 @@
         ]);
 
         var options = {
-          title: 'Animales rescatados',
+          title: 'Cantidad de animales rescatados por Rescatistas',
           chartArea: {width: '50%'},
           hAxis: {
             title: 'Total Rescatados',
@@ -94,7 +98,7 @@
 
       var options = {
         title: 'Motivation and Energy Level Throughout the Day',
-        colors: ['#9575cd', '#33ac71'],
+        colors: ['#9013cd', '#33ac71'],
         hAxis: {
           title: 'Time of Day',
           format: 'h:mm a',
@@ -130,8 +134,10 @@
     <!-- End banner Area -->
 
     <!-- Start Sample Area -->
-        <div class="row">
-            <div class="col-md-4" id="torta"></div>
-            <div class="col-md-4" id="barras"></div>
-            <div class="col-md-4" id="barras_ot"></div>
-        </div>
+    <section class="conteiner">
+      <div class="row">
+            <div class="col-md-6" id="torta"></div>
+            <div class="col-md-6" id="barras"></div>
+            <div id="barras_ot"></div> 
+      </div> 
+    </section>
