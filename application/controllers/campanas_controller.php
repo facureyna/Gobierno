@@ -30,6 +30,27 @@ class campanas_controller extends CI_Controller {
 				 $this->load->view('cargarCampana');
 	}
 
+	public function rescatistas(){
+
+		$response = json_decode(
+				 file_get_contents('http://192.168.1.43/rescatistaAnimales/index.php/rescatista_REST/rescatistas/1')
+		 );
+
+		$data['rescatistas'] = $response->listaRescatistas;
+	//	 echo '<pre>';
+	//	 echo print_r($data['rescatistas']);
+	//	 echo '</pre>';
+		 $this->load->view('rescatistas',$data);
+		//'c_conexion/verRescatistaSinAprobar_get'
+	}
+
+
+	    public function contestarSolicitud(){
+
+		 	redirect('c_conexion/contestarSolicitud/');
+
+			}
+
 
 	 public function add()
 	 {
