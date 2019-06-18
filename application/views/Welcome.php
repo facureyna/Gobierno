@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Campanas extends CI_Controller {
+class Welcome extends CI_Controller {
 
 	/**
 	 * Index Page for this controller.
@@ -20,9 +20,6 @@ class Campanas extends CI_Controller {
 	 */
 	public function index()
 	{
-		$this->load->model('campana_model');
-		$data['listado'] = $this->campana_model->listarCampana();
-		$this->load->view('campana',$data);
-
+		$this->load->view('home');
 	}
 }

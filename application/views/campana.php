@@ -85,35 +85,48 @@
     <!-- End banner Area -->
 
     <!-- Start Sample Area -->
+    <div class="row justify-content-center">
         <div class="section-top-border">
           <h3 class="mb-30">Campañas</h3>
-          <div class="progress-table-wrap">
-            <div class="progress-table">
-              <div class="table-head">
-                <div class="serial">#</div>
-                <div class="country">Nombre campaña</div>
-                <div class="visit">Fecha</div>
-                <div class="percentage">Ubicación</div>
-              </div>
-              <div class="table-row">
-                <div class="serial">04</div>
-                <div class="country"> <?php
 
-                foreach ($listado as $valor) {
-                  echo($valor->nombreCampana);
-                  echo($valor->fecha);
-                  echo($valor->ubicacion);
-                }
-                 ?></div>
-                <div class="visit">645032</div>
-                <div class="percentage">
-                  <div class="progress">
-                    <div class="progress-bar color-4" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
-                  </div>
-                </div>
-              </div>
+          <a href="campanas_controller/cargarCampana" class='btn btn-info'> Nueva campaña</a>
+          
 
-                </div>
+
+          <?php
+          echo"<div class="."row justify-content-center".">";
+          echo" <div class="."progress-table".">";
+                echo"
+              <div class="."table-head".">
+                <div class="."country".">Nombre campaña</div>
+                <div class="."visit".">Fecha</div>
+                <div class="."percentage".">Ubicación</div>
+              </div>";
+
+
+              foreach ($listado as $valor) {
+                echo"<div class="."table-row".">";
+                echo($valor->nombreCampana);
+                echo" <div class="."country"."></div>";
+                echo($valor->fecha);
+                echo"<div class="."visit"."></div>";
+                echo($valor->ubicacion);
+                echo"<div class="."percentage"."></div>";
+
+
+                echo "<a href="."campanas_controller/edit/$valor->id_campana"." class='btn btn-success'> B</a>";
+                echo "<a href="."campanas_controller/remove/$valor->id_campana"." class='btn btn-danger'> B</a>";
+
+              echo"  </div>";
+            }
+              echo"</div>";
+              echo"</div>";
+
+              ?>
+            </div>
+
+
+
               </div>
             </div>
           </div>
