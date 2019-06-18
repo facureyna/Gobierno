@@ -100,7 +100,7 @@
         </div>
         <div class="row justify-content-center">
 
-        
+
 
             <?php echo form_open('campanas_controller/add'); ?>
             <div class="form-group">

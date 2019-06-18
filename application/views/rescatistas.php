@@ -87,36 +87,45 @@
     <!-- Start Sample Area -->
     <div class="row justify-content-center">
         <div class="section-top-border">
-          <h3 class="mb-30">Campañas</h3>
+          <h3 class="mb-30">Rescatistas</h3>
 
-          <a href="campanas_controller/cargarCampana" class='btn btn-info'> Nueva campaña</a>
-
+          
 
 
           <?php
-          echo"<div class="."row justify-content-center".">";
+          echo"<div class="."row justify-content".">";
           echo" <div class="."progress-table".">";
                 echo"
               <div class="."table-head".">
-                <div class="."country".">Nombre campaña</div>
-                <div class="."visit".">Fecha</div>
-                <div class="."percentage".">Ubicación</div>
+                <div class="."country".">Nombre</div>
+                <div class="."visit".">Apellido</div>
+                <div class="."percentage".">e-mail</div>
+                <div class="."country".">Direccion</div>
+                <div class="."visit".">Fecha nacimiento</div>
+                <div class="."percentage".">Telefono</div>
+                  <div class="."percentage".">Aprobar</div>
               </div>";
 
 
-              foreach ($listado as $valor) {
+              foreach ($rescatistas as $valor) {
                 echo"<div class="."table-row".">";
-                echo($valor->nombreCampana);
+                echo($valor->nombre);
                 echo" <div class="."country"."></div>";
-                echo($valor->fecha);
+                echo($valor->apellido);
                 echo"<div class="."visit"."></div>";
-                echo($valor->ubicacion);
-                echo"<div class="."percentage"."></div>";
+                echo($valor->email);
+                echo"<div class="."visit"."></div>";
+                echo($valor->direccion);
+                echo"<div class="."visit"."></div>";
+                echo($valor->fechaNacimiento);
+                echo"<div class="."visit"."></div>";
+                echo($valor->telefono);
 
+        ?>
 
-                echo "<a href="."campanas_controller/edit/$valor->id_campana"." class='btn btn-success'> B</a>";
-                echo "<a href="."campanas_controller/remove/$valor->id_campana"." class='btn btn-danger'> B</a>";
-
+              <a href="<?php echo site_url('c_conexion/contestarSolicitud/'.$valor->dni.'/2'); ?>" class="btn">Aprobar</a>
+              <a href="<?php echo site_url('c_conexion/contestarSolicitud/'.$valor->dni.'/0'); ?>" class="btn">Rechazar</a>
+              <?php
               echo"  </div>";
             }
               echo"</div>";
