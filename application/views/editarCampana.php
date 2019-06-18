@@ -91,42 +91,39 @@
         <div class="row d-flex justify-content-center">
           <div class="menu-content pb-60 col-lg-9">
             <div class="title text-center">
-              <h1 class="mb-20">Nueva campaña</h1>
+              <h1 class="mb-20">Modificar campaña</h1>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
             </div>
           </div>
         </div>
         <div class="row justify-content-center">
-          <form class="col-lg-9">
+
+            <?php echo form_open('campanas_controller/edit/'.$linea['id_campana']); ?>
             <div class="form-group">
               <label for="first-name">Nombre campaña</label>
-              <input type="text" class="form-control" placeholder="Ej. ESTERILIZACION JULIO 2019">
+	             <input type="text" name="nombreCampana" value="<?php echo ($this->input->post('nombreCampana') ? $this->input->post('nombreCampana') : $linea['nombreCampana']); ?>" />
             </div>
+
             <div class="form-group">
               <label for="last-name">Fecha</label>
-              <input type="date" class="form-control">
+              <input type="date" name="fecha" value="<?php echo ($this->input->post('fecha') ? $this->input->post('fecha') : $linea['fecha']); ?>" />
             </div>
-            <div class="form-row">
 
-              <div class="col-6 mb-30">
+            <div class="form-group">
                 <label for="City">Ubicación</label>
-                <div class="select-option" id="service-select">
-                <select>
-                  <option data-display="Selecciona la ubicación">Selecciona la ubicación</option>
-                  <option value="1">Trailer KM3</option>
-                  <option value="2">Predio Ferial</option>
-                  <option value="3">Union vecinal KM5</option>
-                  <option value="4">Plaza San Martin</option>
-                </select>
-                </div>
-              </div>
+                <input type="text" name="ubicacion" value="<?php echo ($this->input->post('ubicacion') ? $this->input->post('ubicacion') : $linea['ubicacion']); ?>" />
+           </div>
 
+            <div class="form-group">
+            <button type="submit" class="primary-btn float-right">Aceptar</button>
             </div>
-            <button type="submit" class="primary-btn float-right"> Aceptar</button>
-          </form>
+              <?php echo form_close(); ?>
 
+
+          </div>
       </div>
     </section>
+
 
 
 

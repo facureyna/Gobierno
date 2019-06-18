@@ -85,11 +85,16 @@
     <!-- End banner Area -->
 
     <!-- Start Sample Area -->
+    <div class="row justify-content-center">
         <div class="section-top-border">
           <h3 class="mb-30">Campañas</h3>
-          <button type="button" class="btn btn-info">Nueva campaña</button>
+
+          <a href="campanas_controller/cargarCampana" class='btn btn-info'> Nueva campaña</a>
+          
+
+
           <?php
-          echo"<div class="."progress-table-wrap".">";
+          echo"<div class="."row justify-content-center".">";
           echo" <div class="."progress-table".">";
                 echo"
               <div class="."table-head".">
@@ -101,17 +106,16 @@
 
               foreach ($listado as $valor) {
                 echo"<div class="."table-row".">";
-
                 echo($valor->nombreCampana);
                 echo" <div class="."country"."></div>";
                 echo($valor->fecha);
                 echo"<div class="."visit"."></div>";
                 echo($valor->ubicacion);
                 echo"<div class="."percentage"."></div>";
-                echo"<button type='button' class='btn btn-primary'>Ver</button>";
-                echo"<button type='button' class='btn btn-success'>Modificar</button>";
-                echo"<button type='button' class='btn btn-danger'>Borrar</button>";
 
+
+                echo "<a href="."campanas_controller/edit/$valor->id_campana"." class='btn btn-success'> B</a>";
+                echo "<a href="."campanas_controller/remove/$valor->id_campana"." class='btn btn-danger'> B</a>";
 
               echo"  </div>";
             }
@@ -119,6 +123,7 @@
               echo"</div>";
 
               ?>
+            </div>
 
 
 

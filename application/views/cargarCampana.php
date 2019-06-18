@@ -93,16 +93,16 @@
         <div class="row d-flex justify-content-center">
           <div class="menu-content pb-60 col-lg-9">
             <div class="title text-center">
-              <h1 class="mb-20">Modificar campaña</h1>
+              <h1 class="mb-20">Cargar campaña</h1>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
             </div>
           </div>
         </div>
         <div class="row justify-content-center">
 
-          <form >
+        
 
-            <?php echo form_open('modificarC/add'); ?>
+            <?php echo form_open('campanas_controller/add'); ?>
             <div class="form-group">
               <label for="first-name">Nombre campaña</label>
                 <input type="textArea" name="nombreCampana" class="form-control" placeholder="Vacunacion Julio" value="<?php echo $this->input->post('nombreCampana'); ?>" />
@@ -125,7 +125,7 @@
 
             </div>
               <?php echo form_close(); ?>
-            </form>
+
 
           </div>
       </div>
