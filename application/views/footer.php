@@ -4,28 +4,30 @@
         <div class="row pt-120 pb-80">
           <div class="col-lg-4 col-md-6">
             <div class="single-footer-widget">
-              <h6>About Us</h6>
+              <h6>Gobierno</h6>
               <p>
-                Few would argue that, despite the advanc ements off eminism over the past three decades, women still face a double standard when it comes to their behavior. While men’s borderline-inappropriate behavior. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Campañas de esterilización
+              Campañas de vacunación
+              Censos de animales
               </p>
             </div>
           </div>
           <div class="col-lg-4 col-md-6">
             <div class="single-footer-widget">
-              <h6>Useful Links</h6>
+              <h6>Links de interes</h6>
               <div class="row">
                 <ul class="col footer-nav">
-                  <li><a href="#">Home</a></li>
-                  <li><a href="#">Service</a></li>
-                  <li><a href="#">About</a></li>
-                  <li><a href="#">Case Study</a></li>
+                  <li><a href="#">Inicio</a></li>
+                  <li><a href="#">Campañas</a></li>
+                  <li><a href="#">Estadisticas</a></li>
+                  <li><a href="#">Rescatistas</a></li>
                 </ul>
               </div>
             </div>
           </div>
           <div class="col-lg-4  col-md-6">
             <div class="single-footer-widget mail-chimp">
-              <h6 class="mb-20">Contact Us</h6>
+              <h6 class="mb-20">Contacto</h6>
               <ul class="list-contact">
                 <li class="flex-row d-flex">
                   <div class="icon">

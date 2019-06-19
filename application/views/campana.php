@@ -1,4 +1,8 @@
     <!-- start banner Area -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <section class="banner-area relative" id="home">
       <div class="overlay overlay-bg"></div>
       <div class="container">
@@ -44,8 +48,12 @@
                 echo"<div class="."percentage"."></div>";
 
 
-                echo "<a href="."campanas_controller/edit/$valor->id_campana"." class='btn btn-success'> B</a>";
-                echo "<a href="."campanas_controller/remove/$valor->id_campana"." class='btn btn-danger'> B</a>";
+                echo "<a href="."campanas_controller/edit/$valor->id_campana"." class='btn btn-success'> <span class='glyphicon glyphicon-pencil'></span></a>";
+                  echo "<a href="."campanas_controller/remove/$valor->id_campana"." class='btn btn-danger'> <span class='glyphicon glyphicon-trash'></span></a>";
+              //  echo "<a href="."campanas_controller/remove/$valor->id_campana"."class='btn btn-success'> Borrar </a>";
+
+
+
 
               echo"  </div>";
             }

@@ -9,10 +9,9 @@
               Ellos nos necesitan.
             </h1>
             <p class="text-white sub-head">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod temp
-              or incididunt ut labore et dolore magna aliqua. Ut enim ad minim.
+              Mascotas
             </p>
-            <a href="#" class="primary-btn header-btn text-uppercase">Find a pet to adopt</a>
+            <a href="#" class="primary-btn header-btn text-uppercase">Encontra una mascota para adoptar</a>
           </div>
         </div>
       </div>
@@ -73,12 +72,12 @@
           <div class="col-lg-8">
             <div class="about-video-right justify-content-center align-items-center d-flex relative">
               <div class="overlay overlay-bg"></div>
-              <a class="play-btn" href="https://www.youtube.com/watch?v=ARA0AxrnHdM"><img class="img-fluid mx-auto" src="<?php echo base_url();?>assets/img/play-btn.png" alt=""></a>
+              <a class="play-btn" href="https://www.youtube.com/watch?v=Nn1Dj93QCMY"><img class="img-fluid mx-auto" src="<?php echo base_url();?>assets/img/play-btn.png" alt=""></a>
             </div>
             <div class="description">
-              <h4>Observa un video de las mascotas rescatadas</h4>
+              <h4>"Llévame a casa"</h4>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.
+                Corto animado sobre la adopción de mascotas
               </p>
             </div>
           </div>
@@ -94,8 +93,8 @@
         <div class="row d-flex justify-content-center">
           <div class="menu-content pb-60 col-lg-8">
             <div class="title text-center">
-              <h1 class="mb-10">Process to adopt a pet</h1>
-              <p>Who are in extremely love with eco friendly system.</p>
+              <h1 class="mb-10">Proceso de adopción</h1>
+              <p>Sistema exclusivo para adoptar la mascota correcta</p>
             </div>
           </div>
         </div>
@@ -105,11 +104,11 @@
               <span class="lnr lnr-thumbs-up"></span>
               <a href="#">
                 <h4>
-                  Pet Selection
+                  Registrate
                 </h4>
               </a>
               <p>
-                inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct.
+                Hazte una cuenta como adoptante
               </p>
             </div>
           </div>
@@ -118,11 +117,11 @@
               <span class="lnr lnr-user"></span>
               <a href="#">
                 <h4>
-                  Meeting Authority
+                  Elige la mascota
                 </h4>
               </a>
               <p>
-                inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct.
+                Podras ver las mascotas en adopcion
               </p>
             </div>
           </div>
@@ -131,11 +130,11 @@
               <span class="lnr lnr-license"></span>
               <a href="#">
                 <h4>
-                  Adoption Form Filling
+                  Haz realidad la adopcion
                 </h4>
               </a>
               <p>
-                inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct.
+                Contactate con el rescatista para acordar el encuentro
               </p>
             </div>
           </div>
@@ -144,11 +143,11 @@
               <span class="lnr lnr-magic-wand"></span>
               <a href="#">
                 <h4>
-                  Bring to new family
+                  Listo
                 </h4>
               </a>
               <p>
-                inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct.
+                Disfruta tu nuevo amigo.
               </p>
             </div>
           </div>
@@ -164,102 +163,77 @@
         <div class="row d-flex justify-content-center">
           <div class="menu-content pb-60 col-lg-8">
             <div class="title text-center">
-              <h1 class="mb-10">Testimonials from our guardians</h1>
-              <p>Who are in extremely love with eco friendly system.</p>
+              <h1 class="mb-10">Mascotas</h1>
+              <p>Personas que decidieron cambiar su vida</p>
             </div>
           </div>
         </div>
         <div class="row">
           <div class="active-testimonial-carusel">
             <div class="single-testimonial item">
-              <img class="mx-auto" src="<?php echo base_url();?>assets/img/t1.png" alt="">
+
+              <img class="mx-auto" src="<?php echo base_url();?>assets/img/1.png" alt="">
               <p class="desc">
-                Accessories Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker, projector, hardware and more. laptop accessory
+                "La proteccion de los animales forma parte esencial de la moral y cultura de los pueblos civilizados"
               </p>
-              <h4>Mark Alviro Wiens</h4>
-              <p>
-                CEO at Google
-              </p>
+              <h4><br>Benito Juarez</h4>
             </div>
             <div class="single-testimonial item">
-              <img class="mx-auto" src="<?php echo base_url();?>assets/img/t2.png" alt="">
+              <img class="mx-auto" src="<?php echo base_url();?>assets/img/2.png" alt="">
               <p class="desc">
-                Accessories Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker, projector, hardware and more. laptop accessory
+                "De mi perro aprendí que cuando alguien ha tenido un mal día, es suficiente con sentarse a su lado en silencio y acompañarlo".
               </p>
-              <h4>Mark Alviro Wiens</h4>
-              <p>
-                CEO at Google
-              </p>
+              <h4>Marcos</h4>
             </div>
             <div class="single-testimonial item">
-              <img class="mx-auto" src="<?php echo base_url();?>assets/img/t3.png" alt="">
+              <img class="mx-auto" src="<?php echo base_url();?>assets/img/3.png" alt="">
               <p class="desc">
-                Accessories Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker, projector, hardware and more. laptop accessory
+                Nuestro principal proposito en esta vida es ayudar a otros. Y si no podemos ayudarnos al menos no les hagamos daño"
               </p>
-              <h4>Mark Alviro Wiens</h4>
-              <p>
-                CEO at Google
-              </p>
+              <h4>Dalai Lama</h4>
             </div>
             <div class="single-testimonial item">
-              <img class="mx-auto" src="<?php echo base_url();?>assets/img/t1.png" alt="">
+              <img class="mx-auto" src="<?php echo base_url();?>assets/img/4.png" alt="">
               <p class="desc">
-                Accessories Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker, projector, hardware and more. laptop accessory
+                "Los ojos de un animal tienen el poder de hablar un gran lenguaje"
               </p>
-              <h4>Mark Alviro Wiens</h4>
-              <p>
-                CEO at Google
-              </p>
+              <h4>Martin Buber</h4>
             </div>
             <div class="single-testimonial item">
-              <img class="mx-auto" src="<?php echo base_url();?>assets/img/t2.png" alt="">
+              <img class="mx-auto" src="<?php echo base_url();?>assets/img/6.png" alt="">
               <p class="desc">
-                Accessories Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker, projector, hardware and more. laptop accessory
+                "Educar o adiestrar a nuestra mascota sin mutilar su espiritu y nobleza"
               </p>
-              <h4>Mark Alviro Wiens</h4>
-              <p>
-                CEO at Google
-              </p>
+              <h4>J.G</h4>
             </div>
             <div class="single-testimonial item">
-              <img class="mx-auto" src="<?php echo base_url();?>assets/img/t3.png" alt="">
+              <img class="mx-auto" src="<?php echo base_url();?>assets/img/5.png" alt="">
               <p class="desc">
-                Accessories Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker, projector, hardware and more. laptop accessory
+                "Los perros hablan pero solo a aquellos que saben escucharlos"
               </p>
-              <h4>Mark Alviro Wiens</h4>
-              <p>
-                CEO at Google
-              </p>
+              <h4>Orhan Pamuk</h4>
             </div>
             <div class="single-testimonial item">
-              <img class="mx-auto" src="<?php echo base_url();?>assets/img/t1.png" alt="">
+              <img class="mx-auto" src="<?php echo base_url();?>assets/img/7.png" alt="">
               <p class="desc">
-                Accessories Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker, projector, hardware and more. laptop accessory
+                 “Soy una gran admiradora del trabajo que hacen las Asociaciones Protectoras de Animales”
               </p>
-              <h4>Mark Alviro Wiens</h4>
-              <p>
-                CEO at Google
-              </p>
+              <h4>Valeria Schapira</h4>
             </div>
             <div class="single-testimonial item">
-              <img class="mx-auto" src="<?php echo base_url();?>assets/img/t2.png" alt="">
-              <p class="desc">
-                Accessories Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker, projector, hardware and more. laptop accessory
+
+                <img class="mx-auto" src="<?php echo base_url();?>assets/img/8.png" alt="">
+                <p class="desc">
+                  "No aceptes la admiracion de tu perro como evidencia absoluta de que eres maravilloso"
               </p>
-              <h4>Mark Alviro Wiens</h4>
-              <p>
-                CEO at Google
-              </p>
+              <h4>Ann Landers</h4>
             </div>
             <div class="single-testimonial item">
-              <img class="mx-auto" src="<?php echo base_url();?>assets/img/t3.png" alt="">
+              <img class="mx-auto" src="<?php echo base_url();?>assets/img/2.png" alt="">
               <p class="desc">
-                Accessories Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker, projector, hardware and more. laptop accessory
+                "El amor por las criaturas vivientes el el atributo más noble del hombre"
               </p>
-              <h4>Mark Alviro Wiens</h4>
-              <p>
-                CEO at Google
-              </p>
+              <h4><br>Charles Darwin</h4>
             </div>
           </div>
         </div>
@@ -272,10 +246,12 @@
       <div class="container">
         <div class="overlay overlay-bg"></div>
         <div class="row align-items-center justify-content-center">
-          <h1 class="text-white">Quieres ayudar? Registrate como a Rescatista</h1>
+          <h1 class="text-white">¿Queres ayudar? Registrate como rescatista</h1>
           <p class="text-white">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            Ut enim ad minim. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.
+            Con tan solo dandole transito a una mascota, estas ayudando.
+            <br>
+            Ellos se merecen una vida mejor.
+            <br>
           </p>
           <div class="buttons d-flex flex-row">
             <a href="#" class="primary-btn text-uppercase">Ver mas detalles</a>

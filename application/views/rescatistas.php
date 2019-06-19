@@ -89,7 +89,7 @@
         <div class="section-top-border">
           <h3 class="mb-30">Rescatistas</h3>
 
-          
+
 
 
           <?php
@@ -123,7 +123,7 @@
 
         ?>
 
-              <a href="<?php echo site_url('c_conexion/contestarSolicitud/'.$valor->dni.'/2'); ?>" class="btn">Aprobar</a>
+              <a href="<?php echo site_url('c_conexion/contestarSolicitud/'.$valor->dni.'/2'); ?>" class="btn"> Aceptar</a>
               <a href="<?php echo site_url('c_conexion/contestarSolicitud/'.$valor->dni.'/0'); ?>" class="btn">Rechazar</a>
               <?php
               echo"  </div>";
