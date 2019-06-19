@@ -20,8 +20,8 @@ class Estadisticas extends CI_Controller {
 	 */
 	public function index()
 	{
-		$data['adoptados'] = json_decode(file_get_contents('http://192.168.1.43/rescatistaAnimales/index.php/Rescatista_REST/estadistica')); 
-		$data['rescatistas'] = json_encode(json_decode(file_get_contents('http://192.168.1.43/rescatistaAnimales/index.php/Rescatista_REST/rescates')));
+		$data['adoptados'] = json_decode(file_get_contents('http://10.15.4.77/rescatistaAnimales/index.php/Rescatista_REST/estadistica')); 
+		$data['rescatistas'] = file_get_contents('http://10.15.4.77/rescatistaAnimales/index.php/Rescatista_REST/rescates');
 		$this->load->view('header');
 		$this->load->view('estadisticas', $data);
 		$this->load->view('footer');

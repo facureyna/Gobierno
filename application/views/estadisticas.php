@@ -42,20 +42,8 @@
       <script type="text/javascript">
       // Set a callback to run when the Google Visualization API is loaded.
        google.setOnLoadCallback(drawBasic);
-
-        function drawBasic() {
-          var a = JSON.parse('<?= $rescatistas ?>');
-             a.forEach(function(element) {
-              console.log(element);
-              });
-        var data = google.visualization.arrayToDataTable([
-          ['Rescatistas', 'Animales',],       
-          ['New York City, NY', 8175000],
-          ['Los Angeles, CA', 3792000],
-          ['Chicago, IL', 2695000],
-          ['Houston, TX', 2099000],
-          ['Philadelphia, PA', 1526000]
-        ]);
+       for (var varction drawBasic() {
+        var data = google.visualization.dataTable(<?= $Rescatistas ?>);
 
         var options = {
           title: 'Cantidad de animales rescatados por Rescatistas',

@@ -27,7 +27,9 @@ class campanas_controller extends CI_Controller {
 	 */
 	 public function cargarCampana()
 	{
-				 $this->load->view('cargarCampana');
+				 $this->load->view('header');
+			     $this->load->view('cargarCampana');
+				 $this->load->view('footer');
 	}
 
 
@@ -65,8 +67,10 @@ class campanas_controller extends CI_Controller {
 					 }
 					 else
 					 {
-							 $data['_view'] = 'campanas_controller/edit';
+							 $data['_view'] = 'campanas_controller/edit';							 
+							 $this->load->view('header');
 							 $this->load->view('editarCampana',$data);
+							 $this->load->view('footer');
 					 }
 			 }
 	 }
